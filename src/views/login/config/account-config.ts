@@ -3,7 +3,7 @@ export const rules = {
   name: [
     {
       required: true,
-      message: '用户名是必传内容~',
+      message: '请输入用户名~',
       trigger: 'blur'
     },
     {

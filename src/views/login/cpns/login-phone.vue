@@ -1,5 +1,5 @@
 <template>
-  <el-form label-width="60px">
+  <el-form label-width="72px" :rules="rules" :model="phone">
     <el-form-item label="手机号" prop="num">
       <el-input v-model="phone.num" />
     </el-form-item>
